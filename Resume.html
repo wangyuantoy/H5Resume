@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>re</title>
+    <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="http://cdn.bootcss.com/pace/1.0.2/themes/black/pace-theme-barber-shop.min.css" rel="stylesheet">
+    <link href="HTTP://cdn.bootcss.com/Swiper/3.4.1/css/swiper.min.css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./resume.css">
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        if (clientWidth >= 750) {
+                            docEl.style.fontSize = '100px';
+                        } else {
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                        }
+                    };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+</head>
+<body>
+<div id="loading">
+
+</div>
+<div class="main-body" id="main-body">
+
+    <ul class="list swiper-wrapper">
+        <li class="swiper-slide page01 swiper-no-swiping">
+            <dl class="head-img-box">
+                <dt class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                    swiper-animate-delay="1s"><img src="./img/React.png" alt=""></dt>
+                <dd class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                    swiper-animate-delay="1.5s">王远
+                </dd>
+            </dl>
+            <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="2s">
+                getting to know me,your choice is…</p>
+            <div class="confirm ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s"
+                 swiper-animate-delay="2.5s">
+                <span class="btn-yes">yes</span>
+                <span class="btn-no">no</span>
+            </div>
+        </li>
+        <li class="swiper-slide page02 swiper-no-swiping">
+            <p class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                <img src="./img/laugh.png">哎呀,刚才你手抖了，你的选择是…两秒钟考虑</p>
+            <div class="confirm ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s"
+                 swiper-animate-delay="3.5s">
+                <span class="btn-yes">yes</span>
+                <span class="reject-again">no</span>
+            </div>
+            <!--<p class="btn-yes ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s"-->
+               <!--swiper-animate-delay="3s">yes</p>-->
+            <!--<p class="btn-no ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s"-->
+               <!--swiper-animate-delay="3s">no</p>-->
+        </li>
+        <li class="swiper-slide">
+            <p class="tit ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s">I am</p>
+            <p class="timeBar"></p>
+            <div class="msg">
+                <ul>
+                    <li class="left ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                        swiper-animate-delay="0.8s">
+                        <img src="./img/msgHead1.png"/>
+                        <img src="./img/messageArrow1.png"/>
+                        hello,小乐乐你好~~~~~
+                        hello,小乐乐你好~~~~~
+                    </li>
+                    <li class="right ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                        swiper-animate-delay="1.8s">
+                        <img src="./img/msgHead2.png"/>
+                        <img src="./img/messageArrow2.png"/>
+                        在呢,欢迎咨询我们
+                    </li>
+                    <li class="left ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                        swiper-animate-delay="2.8s">
+                        <img src="./img/msgHead1.png"/>
+                        <img src="./img/messageArrow1.png"/>
+                        hello,小乐乐你好~~~~~
+                    </li>
+                    <li class="right ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                        swiper-animate-delay="3.8s">
+                        <img src="./img/msgHead2.png"/>
+                        <img src="./img/messageArrow2.png"/>
+                        在呢,欢迎咨询我们的移动端课程~~~~~
+                    </li>
+                    <li class="left ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                        swiper-animate-delay="4.8s">
+                        <img src="./img/msgHead1.png"/>
+                        <img src="./img/messageArrow1.png"/>
+                        hello,小乐乐你好~~~~~
+                    </li>
+                    <li class="right ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s"
+                        swiper-animate-delay="5.8s">
+                        <img src="./img/msgHead2.png"/>
+                        <img src="./img/messageArrow2.png"/>
+                        在呢,欢迎咨询我们的移动端课程~~~~~
+                    </li>
+                </ul>
+
+            </div>
+            <div class="msgText"><img src="./img/msgText.png"></div>
+            <img class="arrow" src="./img/arrow.png">
+        </li>
+        <li class="swiper-slide page03">
+            <p class="tit ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s">I do</p>
+            <div class="logos">
+                <img src="./img/JS.png">
+                <img src="./img/CSS3.png">
+                <img src="./img/HTML5.png">
+                <img src="./img/jQuery.png">
+                <img src="./img/json.png">
+                <img src="./img/nodejs.png">
+                <!--<img src="./img/MongoDB.png">-->
+                <img src="./img/React.png">
+            </div>
+            <p class="more ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s"
+               swiper-animate-delay="1.3s">and more to learn...</p>
+            <img class="arrow" src="./img/arrow.png">
+        </li>
+        <!--<li class="swiper-slide clearfix page04">-->
+        <!--<p class="tit">I 还 do</p>-->
+        <!--<div class="hob">-->
+        <!--<img src="./img/football.gif">-->
+        <!--<p>空门肯定能射入</p>-->
+        <!--<img src="./img/basketball.gif">-->
+
+        <!--</div>-->
+        <!--</li>-->
+        <li class="swiper-slide page05">
+            <p class="tit ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s"
+               swiper-animate-delay="0.3s">I want</p>
+            <img class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s"
+                 src="./img/geek.png">
+            <p class="position ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s"
+               swiper-animate-delay="1.6s">前端开发攻城狮</p>
+            <p class="wish ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s"
+               swiper-animate-delay="2.6s">To Be The Chosen One!</p>
+            <img class="arrow" src="./img/arrow.png">
+        </li>
+        <li class="swiper-slide page06">
+            <p class="ani" swiper-animate-effect="shake" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+                撩吗?</p>
+            <img class="qr ani" swiper-animate-effect="rotateIn" swiper-animate-duration="0.8s"
+                 swiper-animate-delay="0.8s" src="./img/qr.png">
+            <span><img class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s"
+                       swiper-animate-delay="1.6s" src="./img/index_f.png"></span><a class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.6s" href="tel:15022734202">15022734202</a>
+            <p class="hurry ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.5s"
+               swiper-animate-delay="2.1s">come on,yo!</p>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
+<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/Swiper/3.4.1/js/swiper.jquery.min.js"></script>
+<script src="./swiper.animate1.0.2.min.js"></script>
+<script src="./resume.js"></script>
